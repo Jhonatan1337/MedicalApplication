@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="App2.MainPage">
+
+
+
+    <ScrollView Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+
+
+        <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <BoxView Grid.ColumnSpan="4" Color="Orange"/>
+
+                <BoxView Grid.Row="1" Grid.ColumnSpan="2" Color="LightBlue"/>
+
+                <BoxView Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Color="LightBlue"/>
+
+                <BoxView Grid.Row="2" Grid.ColumnSpan="2" Color="LightBlue"/>
+
+                <BoxView Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Color="LightBlue"/>
+
+            </Grid>
+
+            
+
+    </ScrollView>
+        
+</ContentPage>
+    
+
